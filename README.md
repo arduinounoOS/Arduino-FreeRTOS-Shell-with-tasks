@@ -9,6 +9,7 @@ Some files are "config" files used for default settings at bootup, and the helpf
 There is a task that is a little game on the lcd keypad shield
 A task to blink the onboard LED with editable delay
 A task to track uptime
+A nifty shell with a "st" command that dipslay stack high water mark for each task (like "pd")
 
 The tasks are:
 
