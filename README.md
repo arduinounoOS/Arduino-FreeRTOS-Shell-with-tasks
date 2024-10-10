@@ -13,26 +13,36 @@ A nifty shell with a "st" command that dipslay stack high water mark for each ta
 
 The tasks are:
 
-Shell, 
-Blink 
-Uptime 
-LCD 
+1-Shell, 
+2-Blink, 
+3-Uptime, 
+4-LCD, 
 
 ____
 The serial shell accepts some simple commands:
 
 li - list files
+
 wr <name> - write file (a new prompt appears for entering the text file data)
+
 rd <name> - read file
+
 de <name> - delete file
+
 ut - show uptime in seconds
+
 st - show task status - stack high water mark, and CPU speed
+
 sd <ms> - set delay for blinking onboard LED
+
 ft - format EEPROM file system
+
 ? - print help file
 
 There are two files, that if they exist, set settings at bootup:
+
 helpfile - this filename is read when the ? command is entered (otherwise ? prints nothing)
+
 config - this help file contains a defualt blink delay to load at startup (otherwise 500 ms)
 
 
