@@ -5,13 +5,17 @@ To create a 4 task mini OS
 With a serial shell
 
 There is an EEPROM "file system" for 5 text files (8 bits) with 8 bit filenames.
+Some files are "config" files used for default settings at bootup, and the helpfile is a text file in EEPROM that you can edit for fun :)
+There is a task that is a little game on the lcd keypad shield
+A task to blink the onboard LED with editable delay
+A task to track uptime
 
 The tasks are:
 
-Shell
-Blink
-Uptime
-LCD
+Shell, 
+Blink 
+Uptime 
+LCD 
 
 ____
 The serial shell accepts some simple commands:
